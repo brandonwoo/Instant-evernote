@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EVERNOTE_CONSUMER_KEY</key>
+	<string>your-consumer-key</string>
+	<key>EVERNOTE_CONSUMER_SECRET</key>
+	<string>your-consumer-secret</string>
+	<key>EVERNOTE_CONNECT_URI</key>
+	<string>https://www.evernote.com/edam</string>
+</dict>
+</plist>

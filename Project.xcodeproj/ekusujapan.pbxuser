@@ -1,0 +1,130 @@
+// !$*UTF8*$!
+{
+	96529A1B132B8F0100E5EA9A /* Posterous */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Posterous;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	96529A39132B8F0600E5EA9A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	96529A3A132B8F0600E5EA9A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	96B64018134324D500814BEB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96B64019134324D500814BEB /* CityClient.xcodeproj\project.pbxproj */;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+		rType = 0;
+	};
+	96B64019134324D500814BEB /* CityClient.xcodeproj\project.pbxproj */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.pbxproject;
+		name = "CityClient.xcodeproj\\project.pbxproj";
+		path = "/Users/ekusujapan/Downloads/ios/CityClient.xcodeproj\\project.pbxproj";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {6900, 103584}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{831138, 1093}";
+		};
+	};
+	96B6401A134324D500814BEB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96B6401B134324D500814BEB /* CityClient.xcodeproj\project.pbxproj */;
+		name = "CityClient.xcodeproj\\project.pbxproj: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1093;
+		vrLoc = 831138;
+	};
+	96B6401B134324D500814BEB /* CityClient.xcodeproj\project.pbxproj */ = {
+		isa = PBXFileReference;
+		name = "CityClient.xcodeproj\\project.pbxproj";
+		path = "/Users/ekusujapan/Downloads/ios/CityClient.xcodeproj\\project.pbxproj";
+		sourceTree = "<absolute>";
+	};
+	96BD41A9132AB0E1007A25AA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 96529A1B132B8F0100E5EA9A /* Posterous */;
+		activeTarget = 96BD41B1132AB0E1007A25AA /* Posterous */;
+		codeSenseManager = 96529A3A132B8F0600E5EA9A /* Code sense */;
+		executables = (
+			96529A1B132B8F0100E5EA9A /* Posterous */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 323167394;
+			PBXWorkspaceStateSaveDate = 323167394;
+		};
+		perUserProjectItems = {
+			96B64018134324D500814BEB /* PBXTextBookmark */ = 96B64018134324D500814BEB /* PBXTextBookmark */;
+			96B6401A134324D500814BEB /* PBXTextBookmark */ = 96B6401A134324D500814BEB /* PBXTextBookmark */;
+		};
+		sourceControlManager = 96529A39132B8F0600E5EA9A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	96BD41B1132AB0E1007A25AA /* Posterous */ = {
+		activeExec = 0;
+		executables = (
+			96529A1B132B8F0100E5EA9A /* Posterous */,
+		);
+	};
+	96BD41D5132AB0E2007A25AA /* PosterousTests */ = {
+		activeExec = 0;
+	};
+}

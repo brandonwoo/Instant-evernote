@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96BD41B7132AB0E1007A25AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BD41B6132AB0E1007A25AA /* UIKit.framework */; };
+		96BD41B9132AB0E1007A25AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BD41B8132AB0E1007A25AA /* Foundation.framework */; };
+		96BD41BB132AB0E1007A25AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BD41BA132AB0E1007A25AA /* CoreGraphics.framework */; };
+		96BD4265132AB5EF007A25AA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BD4264132AB5EF007A25AA /* Security.framework */; };
+		96BE2C95132B729100905460 /* Notepad-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 96BE2C94132B729100905460 /* Notepad-retina.png */; };
+		96BE2C97132B729D00905460 /* Notepad-nonretina.png in Resources */ = {isa = PBXBuildFile; fileRef = 96BE2C96132B729D00905460 /* Notepad-nonretina.png */; };
+		FC19961014E3650300B6DE07 /* AppConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC19960F14E3650300B6DE07 /* AppConfig.plist */; };
+		FCF4788B14E24200009C7C79 /* EDAMLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4784F14E24200009C7C79 /* EDAMLimits.m */; };
+		FCF4788C14E24200009C7C79 /* Errors.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4785114E24200009C7C79 /* Errors.m */; };
+		FCF4788D14E24200009C7C79 /* NoteStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4785314E24200009C7C79 /* NoteStore.m */; };
+		FCF4788E14E24200009C7C79 /* Types.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4785514E24200009C7C79 /* Types.m */; };
+		FCF4788F14E24200009C7C79 /* UserStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4785714E24200009C7C79 /* UserStore.m */; };
+		FCF4789014E24200009C7C79 /* EvernoteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4785914E24200009C7C79 /* EvernoteRequest.m */; };
+		FCF4789314E24200009C7C79 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4785F14E24200009C7C79 /* LoginViewController.m */; };
+		FCF4789414E24200009C7C79 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF4786014E24200009C7C79 /* LoginViewController.xib */; };
+		FCF4789514E24200009C7C79 /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4786214E24200009C7C79 /* PostViewController.m */; };
+		FCF4789614E24200009C7C79 /* PostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF4786314E24200009C7C79 /* PostViewController.xib */; };
+		FCF478A014E24200009C7C79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCF4787E14E24200009C7C79 /* InfoPlist.strings */; };
+		FCF478A114E24200009C7C79 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF4788014E24200009C7C79 /* MainWindow.xib */; };
+		FCF478A314E24200009C7C79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4788414E24200009C7C79 /* main.m */; };
+		FCF478A514E24200009C7C79 /* ProjectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4788814E24200009C7C79 /* ProjectAppDelegate.m */; };
+		FCF478C114E24298009C7C79 /* TBinaryProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF478AA14E24298009C7C79 /* TBinaryProtocol.m */; };
+		FCF478C214E24298009C7C79 /* TProtocolException.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF478AD14E24298009C7C79 /* TProtocolException.m */; };
+		FCF478C314E24298009C7C79 /* TProtocolUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF478B014E24298009C7C79 /* TProtocolUtil.m */; };
+		FCF478C414E24298009C7C79 /* TApplicationException.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF478B214E24298009C7C79 /* TApplicationException.m */; };
+		FCF478C514E24298009C7C79 /* TException.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF478B414E24298009C7C79 /* TException.m */; };
+		FCF478C614E24298009C7C79 /* THTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF478B914E24298009C7C79 /* THTTPClient.m */; };
+		FCF478C714E24298009C7C79 /* TMemoryBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF478BB14E24298009C7C79 /* TMemoryBuffer.m */; };
+		FCF478C814E24298009C7C79 /* TTransportException.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF478BE14E24298009C7C79 /* TTransportException.m */; };
+		FCF478C914E24298009C7C79 /* TSharedProcessorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF478C014E24298009C7C79 /* TSharedProcessorFactory.m */; };
+		FCF478CC14E24462009C7C79 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF478CB14E24462009C7C79 /* Project.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96BD41B2132AB0E1007A25AA /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BD41B6132AB0E1007A25AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		96BD41B8132AB0E1007A25AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96BD41BA132AB0E1007A25AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		96BD4264132AB5EF007A25AA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		96BE2C94132B729100905460 /* Notepad-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Notepad-retina.png"; sourceTree = "<group>"; };
+		96BE2C96132B729D00905460 /* Notepad-nonretina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Notepad-nonretina.png"; sourceTree = "<group>"; };
+		FC19960F14E3650300B6DE07 /* AppConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppConfig.plist; sourceTree = "<group>"; };
+		FCF4784E14E24200009C7C79 /* EDAMLimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDAMLimits.h; sourceTree = "<group>"; };
+		FCF4784F14E24200009C7C79 /* EDAMLimits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDAMLimits.m; sourceTree = "<group>"; };
+		FCF4785014E24200009C7C79 /* Errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Errors.h; sourceTree = "<group>"; };
+		FCF4785114E24200009C7C79 /* Errors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Errors.m; sourceTree = "<group>"; };
+		FCF4785214E24200009C7C79 /* NoteStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteStore.h; sourceTree = "<group>"; };
+		FCF4785314E24200009C7C79 /* NoteStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteStore.m; sourceTree = "<group>"; };
+		FCF4785414E24200009C7C79 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		FCF4785514E24200009C7C79 /* Types.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Types.m; sourceTree = "<group>"; };
+		FCF4785614E24200009C7C79 /* UserStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserStore.h; sourceTree = "<group>"; };
+		FCF4785714E24200009C7C79 /* UserStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserStore.m; sourceTree = "<group>"; };
+		FCF4785814E24200009C7C79 /* EvernoteRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvernoteRequest.h; sourceTree = "<group>"; };
+		FCF4785914E24200009C7C79 /* EvernoteRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvernoteRequest.m; sourceTree = "<group>"; };
+		FCF4785E14E24200009C7C79 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		FCF4785F14E24200009C7C79 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		FCF4786014E24200009C7C79 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		FCF4786114E24200009C7C79 /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		FCF4786214E24200009C7C79 /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		FCF4786314E24200009C7C79 /* PostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostViewController.xib; sourceTree = "<group>"; };
+		FCF4787F14E24200009C7C79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCF4788114E24200009C7C79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		FCF4788414E24200009C7C79 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCF4788514E24200009C7C79 /* Project-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Project-Info.plist"; sourceTree = "<group>"; };
+		FCF4788614E24200009C7C79 /* Project-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Project-Prefix.pch"; sourceTree = "<group>"; };
+		FCF4788714E24200009C7C79 /* ProjectAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectAppDelegate.h; sourceTree = "<group>"; };
+		FCF4788814E24200009C7C79 /* ProjectAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectAppDelegate.m; sourceTree = "<group>"; };
+		FCF478A914E24298009C7C79 /* TBinaryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBinaryProtocol.h; sourceTree = "<group>"; };
+		FCF478AA14E24298009C7C79 /* TBinaryProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBinaryProtocol.m; sourceTree = "<group>"; };
+		FCF478AB14E24298009C7C79 /* TProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocol.h; sourceTree = "<group>"; };
+		FCF478AC14E24298009C7C79 /* TProtocolException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolException.h; sourceTree = "<group>"; };
+		FCF478AD14E24298009C7C79 /* TProtocolException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolException.m; sourceTree = "<group>"; };
+		FCF478AE14E24298009C7C79 /* TProtocolFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolFactory.h; sourceTree = "<group>"; };
+		FCF478AF14E24298009C7C79 /* TProtocolUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolUtil.h; sourceTree = "<group>"; };
+		FCF478B014E24298009C7C79 /* TProtocolUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolUtil.m; sourceTree = "<group>"; };
+		FCF478B114E24298009C7C79 /* TApplicationException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TApplicationException.h; sourceTree = "<group>"; };
+		FCF478B214E24298009C7C79 /* TApplicationException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TApplicationException.m; sourceTree = "<group>"; };
+		FCF478B314E24298009C7C79 /* TException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TException.h; sourceTree = "<group>"; };
+		FCF478B414E24298009C7C79 /* TException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TException.m; sourceTree = "<group>"; };
+		FCF478B514E24298009C7C79 /* TProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProcessor.h; sourceTree = "<group>"; };
+		FCF478B614E24298009C7C79 /* TProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProcessorFactory.h; sourceTree = "<group>"; };
+		FCF478B814E24298009C7C79 /* THTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTTPClient.h; sourceTree = "<group>"; };
+		FCF478B914E24298009C7C79 /* THTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTTPClient.m; sourceTree = "<group>"; };
+		FCF478BA14E24298009C7C79 /* TMemoryBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMemoryBuffer.h; sourceTree = "<group>"; };
+		FCF478BB14E24298009C7C79 /* TMemoryBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMemoryBuffer.m; sourceTree = "<group>"; };
+		FCF478BC14E24298009C7C79 /* TTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTransport.h; sourceTree = "<group>"; };
+		FCF478BD14E24298009C7C79 /* TTransportException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTransportException.h; sourceTree = "<group>"; };
+		FCF478BE14E24298009C7C79 /* TTransportException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTransportException.m; sourceTree = "<group>"; };
+		FCF478BF14E24298009C7C79 /* TSharedProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSharedProcessorFactory.h; sourceTree = "<group>"; };
+		FCF478C014E24298009C7C79 /* TSharedProcessorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSharedProcessorFactory.m; sourceTree = "<group>"; };
+		FCF478CA14E24462009C7C79 /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		FCF478CB14E24462009C7C79 /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96BD41AF132AB0E1007A25AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BD4265132AB5EF007A25AA /* Security.framework in Frameworks */,
+				96BD41B7132AB0E1007A25AA /* UIKit.framework in Frameworks */,
+				96BD41B9132AB0E1007A25AA /* Foundation.framework in Frameworks */,
+				96BD41BB132AB0E1007A25AA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96BD41A7132AB0E1007A25AA = {
+			isa = PBXGroup;
+			children = (
+				FCF4784A14E24200009C7C79 /* Project */,
+				96BE2C96132B729D00905460 /* Notepad-nonretina.png */,
+				96BE2C94132B729100905460 /* Notepad-retina.png */,
+				96BD4264132AB5EF007A25AA /* Security.framework */,
+				96BD41B5132AB0E1007A25AA /* Frameworks */,
+				96BD41B3132AB0E1007A25AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96BD41B3132AB0E1007A25AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96BD41B2132AB0E1007A25AA /* Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96BD41B5132AB0E1007A25AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96BD41B6132AB0E1007A25AA /* UIKit.framework */,
+				96BD41B8132AB0E1007A25AA /* Foundation.framework */,
+				96BD41BA132AB0E1007A25AA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC19960D14E364E200B6DE07 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				FC19960F14E3650300B6DE07 /* AppConfig.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		FCF4784A14E24200009C7C79 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				FC19960D14E364E200B6DE07 /* Config */,
+				FCF4784B14E24200009C7C79 /* Classes */,
+				FCF4788014E24200009C7C79 /* MainWindow.xib */,
+				FCF4788714E24200009C7C79 /* ProjectAppDelegate.h */,
+				FCF4788814E24200009C7C79 /* ProjectAppDelegate.m */,
+				FCF4787E14E24200009C7C79 /* InfoPlist.strings */,
+				FCF4788414E24200009C7C79 /* main.m */,
+				FCF4788514E24200009C7C79 /* Project-Info.plist */,
+				FCF4788614E24200009C7C79 /* Project-Prefix.pch */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		FCF4784B14E24200009C7C79 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FCF478A714E24298009C7C79 /* thrift-cocoa */,
+				FCF4784C14E24200009C7C79 /* evernote-cocoa */,
+				FCF478CA14E24462009C7C79 /* Project.h */,
+				FCF478CB14E24462009C7C79 /* Project.m */,
+				FCF4785814E24200009C7C79 /* EvernoteRequest.h */,
+				FCF4785914E24200009C7C79 /* EvernoteRequest.m */,
+				FCF4785E14E24200009C7C79 /* LoginViewController.h */,
+				FCF4785F14E24200009C7C79 /* LoginViewController.m */,
+				FCF4786014E24200009C7C79 /* LoginViewController.xib */,
+				FCF4786114E24200009C7C79 /* PostViewController.h */,
+				FCF4786214E24200009C7C79 /* PostViewController.m */,
+				FCF4786314E24200009C7C79 /* PostViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FCF4784C14E24200009C7C79 /* evernote-cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				FCF4784D14E24200009C7C79 /* edam */,
+			);
+			path = "evernote-cocoa";
+			sourceTree = "<group>";
+		};
+		FCF4784D14E24200009C7C79 /* edam */ = {
+			isa = PBXGroup;
+			children = (
+				FCF4784E14E24200009C7C79 /* EDAMLimits.h */,
+				FCF4784F14E24200009C7C79 /* EDAMLimits.m */,
+				FCF4785014E24200009C7C79 /* Errors.h */,
+				FCF4785114E24200009C7C79 /* Errors.m */,
+				FCF4785214E24200009C7C79 /* NoteStore.h */,
+				FCF4785314E24200009C7C79 /* NoteStore.m */,
+				FCF4785414E24200009C7C79 /* Types.h */,
+				FCF4785514E24200009C7C79 /* Types.m */,
+				FCF4785614E24200009C7C79 /* UserStore.h */,
+				FCF4785714E24200009C7C79 /* UserStore.m */,
+			);
+			path = edam;
+			sourceTree = "<group>";
+		};
+		FCF478A714E24298009C7C79 /* thrift-cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				FCF478A814E24298009C7C79 /* protocol */,
+				FCF478B114E24298009C7C79 /* TApplicationException.h */,
+				FCF478B214E24298009C7C79 /* TApplicationException.m */,
+				FCF478B314E24298009C7C79 /* TException.h */,
+				FCF478B414E24298009C7C79 /* TException.m */,
+				FCF478B514E24298009C7C79 /* TProcessor.h */,
+				FCF478B614E24298009C7C79 /* TProcessorFactory.h */,
+				FCF478B714E24298009C7C79 /* transport */,
+				FCF478BF14E24298009C7C79 /* TSharedProcessorFactory.h */,
+				FCF478C014E24298009C7C79 /* TSharedProcessorFactory.m */,
+			);
+			path = "thrift-cocoa";
+			sourceTree = "<group>";
+		};
+		FCF478A814E24298009C7C79 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				FCF478A914E24298009C7C79 /* TBinaryProtocol.h */,
+				FCF478AA14E24298009C7C79 /* TBinaryProtocol.m */,
+				FCF478AB14E24298009C7C79 /* TProtocol.h */,
+				FCF478AC14E24298009C7C79 /* TProtocolException.h */,
+				FCF478AD14E24298009C7C79 /* TProtocolException.m */,
+				FCF478AE14E24298009C7C79 /* TProtocolFactory.h */,
+				FCF478AF14E24298009C7C79 /* TProtocolUtil.h */,
+				FCF478B014E24298009C7C79 /* TProtocolUtil.m */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		FCF478B714E24298009C7C79 /* transport */ = {
+			isa = PBXGroup;
+			children = (
+				FCF478B814E24298009C7C79 /* THTTPClient.h */,
+				FCF478B914E24298009C7C79 /* THTTPClient.m */,
+				FCF478BA14E24298009C7C79 /* TMemoryBuffer.h */,
+				FCF478BB14E24298009C7C79 /* TMemoryBuffer.m */,
+				FCF478BC14E24298009C7C79 /* TTransport.h */,
+				FCF478BD14E24298009C7C79 /* TTransportException.h */,
+				FCF478BE14E24298009C7C79 /* TTransportException.m */,
+			);
+			path = transport;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96BD41B1132AB0E1007A25AA /* Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96BD41E9132AB0E2007A25AA /* Build configuration list for PBXNativeTarget "Project" */;
+			buildPhases = (
+				96BD41AE132AB0E1007A25AA /* Sources */,
+				96BD41AF132AB0E1007A25AA /* Frameworks */,
+				96BD41B0132AB0E1007A25AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Project;
+			productName = Posterous;
+			productReference = 96BD41B2132AB0E1007A25AA /* Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96BD41A9132AB0E1007A25AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 96BD41AC132AB0E1007A25AA /* Build configuration list for PBXProject "Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96BD41A7132AB0E1007A25AA;
+			productRefGroup = 96BD41B3132AB0E1007A25AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96BD41B1132AB0E1007A25AA /* Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96BD41B0132AB0E1007A25AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BE2C95132B729100905460 /* Notepad-retina.png in Resources */,
+				96BE2C97132B729D00905460 /* Notepad-nonretina.png in Resources */,
+				FCF4789414E24200009C7C79 /* LoginViewController.xib in Resources */,
+				FCF4789614E24200009C7C79 /* PostViewController.xib in Resources */,
+				FCF478A014E24200009C7C79 /* InfoPlist.strings in Resources */,
+				FCF478A114E24200009C7C79 /* MainWindow.xib in Resources */,
+				FC19961014E3650300B6DE07 /* AppConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96BD41AE132AB0E1007A25AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF4788B14E24200009C7C79 /* EDAMLimits.m in Sources */,
+				FCF4788C14E24200009C7C79 /* Errors.m in Sources */,
+				FCF4788D14E24200009C7C79 /* NoteStore.m in Sources */,
+				FCF4788E14E24200009C7C79 /* Types.m in Sources */,
+				FCF4788F14E24200009C7C79 /* UserStore.m in Sources */,
+				FCF4789014E24200009C7C79 /* EvernoteRequest.m in Sources */,
+				FCF4789314E24200009C7C79 /* LoginViewController.m in Sources */,
+				FCF4789514E24200009C7C79 /* PostViewController.m in Sources */,
+				FCF478A314E24200009C7C79 /* main.m in Sources */,
+				FCF478A514E24200009C7C79 /* ProjectAppDelegate.m in Sources */,
+				FCF478C114E24298009C7C79 /* TBinaryProtocol.m in Sources */,
+				FCF478C214E24298009C7C79 /* TProtocolException.m in Sources */,
+				FCF478C314E24298009C7C79 /* TProtocolUtil.m in Sources */,
+				FCF478C414E24298009C7C79 /* TApplicationException.m in Sources */,
+				FCF478C514E24298009C7C79 /* TException.m in Sources */,
+				FCF478C614E24298009C7C79 /* THTTPClient.m in Sources */,
+				FCF478C714E24298009C7C79 /* TMemoryBuffer.m in Sources */,
+				FCF478C814E24298009C7C79 /* TTransportException.m in Sources */,
+				FCF478C914E24298009C7C79 /* TSharedProcessorFactory.m in Sources */,
+				FCF478CC14E24462009C7C79 /* Project.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCF4787E14E24200009C7C79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCF4787F14E24200009C7C79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCF4788014E24200009C7C79 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCF4788114E24200009C7C79 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96BD41E7132AB0E2007A25AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96BD41E8132AB0E2007A25AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		96BD41EA132AB0E2007A25AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Project/Project-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "./Classes/thrift-cocoa/**";
+				INFOPLIST_FILE = "Project/Project-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96BD41EB132AB0E2007A25AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Project/Project-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "./Classes/thrift-cocoa/**";
+				INFOPLIST_FILE = "Project/Project-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96BD41AC132AB0E1007A25AA /* Build configuration list for PBXProject "Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BD41E7132AB0E2007A25AA /* Debug */,
+				96BD41E8132AB0E2007A25AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96BD41E9132AB0E2007A25AA /* Build configuration list for PBXNativeTarget "Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BD41EA132AB0E2007A25AA /* Debug */,
+				96BD41EB132AB0E2007A25AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96BD41A9132AB0E1007A25AA /* Project object */;
+}
